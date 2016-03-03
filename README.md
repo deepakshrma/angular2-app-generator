@@ -13,5 +13,5 @@ $ unzip angular2-app-generator-master.zip && mv angular2-app-generator-master ~/
 ```bash
 #suppose i want to create a blank project(MyFirstApp) in my-project directory 
 $ cd my-project
-$ ~/angular2-app-generator/init.sh MyFirstApp
+$ ~/angular2-app-generator/ng2generator.sh MyFirstApp
 ```
