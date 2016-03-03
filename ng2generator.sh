@@ -11,9 +11,13 @@ echo $SCRIPT_DIR
 cp $SCRIPT_DIR/{index.html,package.json,tsconfig.json,typings.json} $APP_NAME/
 cp $SCRIPT_DIR/app/* $APP_NAME/app/
 cd $APP_NAME
+echo "##################NPM INSTALL####################"
 echo "Installing node package, It will take time"
+echo "##################NPM INSTALL####################"
 sleep 3
-npm i
+#npm i
+echo "##################NPM START####################"
 echo "Starting your app, see logs: Thanks :-)"
+echo "##################NPM START####################"
 sleep 3
-npm start
+#npm start
